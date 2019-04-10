@@ -1,0 +1,10 @@
+metrix:
+ include:
+-language: c
+ sudo: false
+  compiler: 
+ - clang
+ - gcc
+ script:
+ - gcc -o last last.c 
+ - ./last
